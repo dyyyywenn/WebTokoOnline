@@ -20,6 +20,7 @@
         </form>
         <?php
             if(isset($_POST['submit'])){
+                error_reporting(0);
                 session_start();
                 include 'db.php';
 
